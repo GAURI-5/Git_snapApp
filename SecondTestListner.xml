@@ -1,0 +1,11 @@
+
+<suite name="Suite">
+<listeners>
+<listner class-name="lisner.ExecutionList"></listner>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.snap.testing.SecondTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

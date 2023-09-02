@@ -1,0 +1,30 @@
+<suite name="Suite">
+<listeners>
+<listner class-name="lisner.lisner"></listner>
+</listeners>
+  <test thread-count="5" name="Test">
+  <groups>
+  <run>
+  <include name="regression"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="com.snap.testing.SecondTest"/>
+     
+	
+	</classes>
+	</test> <!-- Test -->
+	
+<test thread-count="5" name="Test1">
+  <groups>
+  <run>
+  <include name="sanity"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="com.snap.testing.SecondTest"/>
+     
+	
+	</classes>
+	</test>
+</suite> <!-- Suite --> 
